@@ -30,7 +30,7 @@ Wtyczka implementuje uwierzytelnianie hasłami jednorazowymi.
 
 %prep
 %setup -q
-%patch1 -p1
+%patch -P1 -p1
 
 %build
 %{__mkdir_p} m4
